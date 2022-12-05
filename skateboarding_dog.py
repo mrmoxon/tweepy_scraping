@@ -3,8 +3,8 @@
 import requests
 import json
 
-#its bad practice to place your bearer token directly into the script (this is just done for illustration purposes)
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAGxAkAEAAAAAKGurOt7foGHWQ6BZMDGZ8UY9yhw%3D0SSYHICsCfDna2asj9LRdVW7f8ErDibEYZTdWeoNDWUMB7QqiD"
+# bad practice to place your bearer token directly into the script
+BEARER_TOKEN = {}
 
 # define search twitter function
 def search_twitter(query, tweet_fields, bearer_token = BEARER_TOKEN):
